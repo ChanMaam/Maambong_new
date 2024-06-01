@@ -1,0 +1,349 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.title{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(gg.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+nav{
+	display: flex;
+	padding: 2% 4%;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li::after{
+	content:'' ;
+	width: 0%;
+	height: 2px;
+	background:black;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+	width: 100%;	
+}
+.nav-links img{
+	border-radius: 50px;
+	border-top-right-radius: 50% 100%;
+	border-bottom-right-radius: 50% 100%;
+	border-top-left-radius: 50% 100%;
+	border-bottom-left-radius: 50% 100%;
+}
+.Ceriaco{
+	width: 90%;
+	color: beige;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.Ceriaco h1{
+font-size: 40px;
+}
+.Ceriaco p{
+	margin: 10px 0 40px;
+	font-size: 10;
+}
+.Ceriaco img{
+	border-radius: 50px;
+}
+.Ceriaco h1{
+	font-size: 80px;
+	line-height: 120px;
+	margin-left: -10px;
+	font-family: 'Poppins', sans-serif;
+	color: transparent;
+	-webkit-text-stroke: 1px beige;
+	background: url(back.png);
+	-webkit-background-clip: text;
+	background-position: 0 0;
+	animation: back 20s linear infinite;
+}
+@keyframes back{
+	100%{
+		background-position: 2000px 0;
+	}
+}
+.Baboys{
+	display: inline-block;
+	text-decoration: none;
+	color: beige;
+	border: 1px solid beige;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+.Baboys:hover{
+	border: 1px solid beige;
+	background: #6495ED;
+	transition: 1s;
+
+}
+/*----------- footer --------*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icon{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+/*----------- about me page --------*/
+
+.Chanh{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4, 9, 30, 0.4)),url(bck.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.ct{
+	color: beige;
+	position: absolute;
+	bottom: 30%;
+
+}
+.ct h1{
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	font-family: cursive;
+}
+.ct p{
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: 400;
+}
+.imy{
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}
+.imy img{
+	height: 100%;
+	position: absolute;
+	left: 170%;
+	bottom: 0;
+	transform: translate(-50%);
+	transition: bottom 1s, left 1s;
+}
+.imy:hover{
+	bottom: 50px;
+
+}
+/*----------- footer --------*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icon{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+/*----------- Band --------*/
+
+.rey{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4, 9, 30, 0.4)),url(uy.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.baby{
+	width: 90%;
+	color: beige;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.baby h1{
+font-size: 40px;
+}
+.baby p{
+	margin: 10px 0 40px;
+	font-size: 10;
+	color: beige;
+	font-family: 'Poppins', sans-serif;
+}
+.baby h1{
+	font-size: 80px;
+	line-height: 120px;
+	margin-left: -10px;
+	font-family: 'Poppins', sans-serif;
+	color: transparent;
+	-webkit-text-stroke: 1px beige;
+	background: url(back.png);
+	-webkit-background-clip: text;
+	background-position: 0 0;
+	animation: back 20s linear infinite;
+}
+/*----------- footer --------*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icon{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+/*----------- about me page --------*/
+
+.drey{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(yt.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+
+}
+.kuya{
+	color: beige;
+	position: absolute;
+	bottom: 30%;
+
+}
+.kuya h1{
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	margin-left: 30px;
+	font-family: cursive;
+}
+.kuya p{
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif; 
+	color: beige;
+	background: brown;
+}
+/*----------- footer --------*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icon{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
+
+/*----------- Adrian --------*/
+
+.paw{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(gg.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.addie{
+	width: 90%;
+	color: beige;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.addie h1{
+font-size: 40px;
+}
+.addie p{
+	margin: 10px 0 40px;
+	font-size: 10;
+}
+.addie img{
+	border-radius: 50px;
+}
+.addie h1{
+	font-size: 80px;
+	line-height: 120px;
+	margin-left: -10px;
+	font-family: 'Poppins', sans-serif;
+	color: transparent;
+	-webkit-text-stroke: 1px beige;
+	background: url(back.png);
+	-webkit-background-clip: text;
+	background-position: 0 0;
+	animation: back 20s linear infinite;
+}
+	/*----------- footer --------*/
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+.footer h1{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icon{
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px 0;
+}
